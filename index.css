@@ -1,11 +1,12 @@
 body {
+  background-image: url("skyphoto.jpg"); /* replace with your image name or URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: makes the background stay in place when scrolling */
   font-family: 'Segoe UI', sans-serif;
-  background: #e0f7fa;
   color: #333;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 40px;
+  margin: 0;
 }
 
 .container {
